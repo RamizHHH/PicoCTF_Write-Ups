@@ -19,7 +19,7 @@ We have identified a hash: 482c811da5d5b4bc6d497ffa98491e38
 Enter the password for identified hash:
 ```
 
-We can see the hash given to us and we need to decrypt it to get the password that's hidden. Firstly, we can decipher what hashing algorithm is being used by using a website called hashes.com, we can simply paste the hash `482c811da5d5b4bc6d497ffa98491e38` into the website and it will tell us it is MD5. We can then use a tool to decrypt them and we can use one called decode.fr, we can search for MD5 and use the decoder tool to decode this hash. The hash gives us `password123` and once we insert the password into the terminal, we get through the first block and then there is a second block requiring us to decrypt the password again. We can repeat the same steps as before, use hashes.com to find the hash type and decode.fr to decode the hash.
+We can see the hash given to us and we need to decrypt it to get the password that's hidden. Firstly, we can decipher what hashing algorithm is being used by using a website called hashes.com, we can simply paste the hash `482c811da5d5b4bc6d497ffa98491e38` into the website and it will tell us it is MD5. We can then use a tool to decrypt it and we can use one called decode.fr, we can search for MD5 and use the decoder tool to decode this hash. The hash gives us `password123` and once we insert the password into the terminal, we get through the first block and then there is a second block requiring us to decrypt the password again. We can repeat the same steps as before, use hashes.com to find the hash type and decode.fr to decode the hash.
 
 ## 3. Vulnerability
 
