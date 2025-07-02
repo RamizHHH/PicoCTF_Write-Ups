@@ -12,4 +12,9 @@ In this challenge we are meant to access a remote server using netcat and break 
 
 We first need to use a terminal to gain access to the server using netcat. PicoCTF has a built in webshell but I prefer Kali Linux's terminal, after opening the terminal use the netcat command provided `nc verbal-sleep.picoctf.net 57356` and you are greeted with the following prompt:
 
-![prompt](/Users/ramiz/Documents/GitHub/PicoCTF_Writeups/Cryptography/Hashcrack Photos/Prompt 1.png)
+```
+Welcome!! Looking For the Secret?
+
+We have identified a hash: 482c811da5d5b4bc6d497ffa98491e38
+Enter the password for identified hash:
+```
