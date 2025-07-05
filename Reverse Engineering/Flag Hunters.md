@@ -205,7 +205,7 @@ Crowd:
 Pico warriors rising, puzzles laid bare,
 Solving each challenge with precision and flair.
 With unity and skill, flags we deliver,
-The ether’s ours to conquer, picoCTF{70637h3r_f0r3v3r_62666df2}
+The ether’s ours to conquer, picoCTF{******************)
 ```
 
 ## 3. Vulnerability
@@ -214,7 +214,7 @@ The major vulnerability in this challenge is input sanitization, or rather, a la
 
 ## 4. Flag
 
-After inputting `;RETURN 0` the lyrics eventually give us the flag `picoCTF{70637h3r_f0r3v3r_62666df2}`
+After inputting `;RETURN 0` the lyrics eventually give us the flag `picoCTF{*********************}`
 
 ## 5. Key Takeaways
 
