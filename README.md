@@ -11,7 +11,7 @@ This repository contains a variety of solutions to different PicoCTF challenges 
 
 ## How to navigate
 
-Challenges are organized by their respective categories, at the root level, I only have folders for each category and inside them are the different challenges I have completed and written a write-up on.**Note for every challenge I do not give the entire flag; make sure to go through each challenge and solve it yourself instead of copying and pasting the flag.**
+Challenges are organized by their respective categories, at the root level, I only have folders for each category and inside them are the different challenges I have completed and written a write-up on. **Note for every challenge I do not give the entire flag; make sure to go through each challenge and solve it yourself instead of copying and pasting the flag.**
 
 ## Skills Demonstrated
 
