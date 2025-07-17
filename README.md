@@ -17,5 +17,5 @@ Challenges are organized by their respective categories, at the root level, I on
 
 - **Cryptography:** Hashing
 - **Reverse Engineering:** Input Sanitization
-- **Web Exploitation:** Sever Side Template Injection
+- **Web Exploitation:** Sever Side Template Injection, SQL Injection
 - **Forensics:** Disk images
