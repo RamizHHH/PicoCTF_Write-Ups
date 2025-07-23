@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 ```
 
-From this script we can see that the main function we need to look at is `gen_key`, this function generates the RSA key, which in turn encrypts the flag we need. Note that the challenge is using RSA which is a cryptosystem that is used for secure data transmission; you can read more about it [here](https://en.wikipedia.org/wiki/RSA_cryptosystem#Decryption). To decypt RSA we need six things: `p`, `q`, `N`, `e`, `d`, and the cypher `C`. we are either given or we can calculate all of them except for `p` and `q`, which are two prime numbers that make `N`.
+From this script we can see that the main function we need to look at is `gen_key`, this function generates the RSA key, which in turn encrypts the flag we need. Note that the challenge is using RSA which is a cryptosystem that is used for secure data transmission; you can read more about it [here](https://en.wikipedia.org/wiki/RSA_cryptosystem#). To decypt RSA we need six things: `p`, `q`, `N`, `e`, `d`, and the cypher `C`. we are either given or we can calculate all of them except for `p` and `q`, which are two prime numbers that make `N`.
 
 Looking at `N`, we can see that it is an even number and every time we run the script, `N` is an even number so we can conclude that it is divisible by 2 and so we can conclude that one of the prime numbers that makes N is 2 and so we can get the other number by dividing `N` by 2.
 
