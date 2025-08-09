@@ -15,7 +15,7 @@ Challenges are organized by their respective categories, at the root level, I on
 
 ## Skills Demonstrated
 
-- **Cryptography:** Hashing
-- **Reverse Engineering:** Input Sanitization
+- **Cryptography:** Hashing, RSA
+- **Reverse Engineering:** Input Sanitization, Position Independent Executable exploitation
 - **Web Exploitation:** Sever Side Template Injection, SQL Injection
-- **Forensics:** Disk images
+- **Forensics:** Disk images, Steganography
