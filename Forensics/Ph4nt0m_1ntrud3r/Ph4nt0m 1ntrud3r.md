@@ -14,7 +14,7 @@ To solve this challenge, we first install `wireshark`, you can install using the
 
 When you open the file, you should see the following information:
 
-![Screen](Inital_Screen.png)
+![Screen](Images/Inital_Screen.png)
 
 After we load the file, we can see all the information about the packets, the source and destination IP addresses, the protocols, the lengths, and the data that was sent.
 
@@ -22,7 +22,7 @@ When we look at the challenge description, it mentions that the attacker has con
 
 To do that, let's first sort the packets in ascending order based on their timestamps. To do that, we can click on the `Time` column header and it will sort the packets based on their timestamps. After that, let's look at the data that was sent in each packet:
 
-![Data](Data.png)
+![Data](Images/Data.png)
 
 When we look at the data that was sent, we can see that there is quite a lot of data that was sent in the packets. If we look closer at the last several packets, we can see that each one contains a base64 encoded string. That could be a potential flag. Let's look at the last 7 packets and extract the base64 strings from them. They give us the following strings:
 
