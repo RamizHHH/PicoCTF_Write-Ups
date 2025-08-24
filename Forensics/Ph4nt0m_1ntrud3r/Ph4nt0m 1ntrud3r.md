@@ -1,4 +1,4 @@
-# DISKO 1
+# Ph4nt0m 1ntrud3r
 
 - **Category:** [Forensics]
 - **Difficulty:** Easy
